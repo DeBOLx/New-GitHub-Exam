@@ -1,0 +1,26 @@
+:root { 
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  
+    color-scheme: light dark;
+    background-color: #242424;
+  
+  }
+  .App {
+    background-color: #F2EBE0;
+    height: 100vh; /* Set height to 100vh for full viewport height coverage */
+    width: 100vw; /* Set width to 100vw for full viewport width coverage */
+    margin: 0;
+  }
+   */
+  .container {
+    width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      width: 70%;
+    }
+  }
+  
